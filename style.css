@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* navbar logo */
+.navbar-logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.nav-search{
+    width: 450px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* box / card header  */
+.frist-card{
+    border-radius: 15px;
+}
+.box-btn{
+    border-radius: 15px;
+    transition: 1s;
+}
+.card-body-css{
+    height: 10px;
+    width: 300px;
+}
+.frist-card{
+    width: 22%;
+    height:100%;
+    background-color: rgb(196, 216, 217);
+}
+.frist-card{
+    box-shadow: 2px 1px 3px;
+    
+}
+.frist-card img{
+    height: 220px;
+}
+.box-btn:hover{
+    background-color: #17202A;
+    border: none;
+    border: 1px solid black;
+}
+/* card hover effects */
+.frist-card:hover{
+    box-shadow: 3px 3px 5px;
+}
+/* service sev=ction */
+.service-left{
+    width: 50%;
+}
+
+.service-right{
+    width: 50%;
+}
+/* form response */
+.form-response{
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+}
+/* paginations */
+.page-n{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 45, 61);
+    
+}
+
+/* footer list */
+.footer-main{
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1317;
+    flex-wrap: wrap;
+}
+.footer-list li {
+    list-style: none;
+    
+}
+.footer-list li a{
+   text-decoration: none;
+   color: rgb(173, 173, 171);
+}
+/* copy right sections */
+.copy-section{
+    background-color: black;
+    height: 60px;
+    gap: 20px;
+}
+.copy-section h6{
+    color: rgb(184, 168, 168);
+}
